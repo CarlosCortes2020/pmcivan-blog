@@ -10,6 +10,26 @@
         grid-column: 1;
         grid-row: 3;
     }
+    .blogs-posts-container .post-container {
+        max-width: 45%;
+    }
+    .projects-main-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+    }
+    .profile-main-container .profile-container {
+        display: block;
+    }
+    .contact-main-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .blogs-posts-container .post-container {
+        max-width: 95%;
+    }
 }
 
 @media (max-width: 460px) {
