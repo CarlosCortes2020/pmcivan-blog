@@ -20,6 +20,14 @@
     .profile-main-container .profile-container {
         display: block;
     }
+
+    .profile-main-container img {
+        width: 250px;
+        margin-right: 0;
+        position: relative;
+        left: 20px;
+    }
+    
     .contact-main-container {
         grid-template-columns: 1fr;
         gap: 20px;
